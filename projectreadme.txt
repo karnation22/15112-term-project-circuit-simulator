@@ -3,7 +3,7 @@ Professor Kosbie
 December 10th 2015
 Term Project Brief Summary: My project consists of a circuit lab in which students connect a series of circuit elements that form ground to ground connections.  
 
-Below are instructions to set up 'easy_install' & 'pip', and install relevant external numerical Python modules (numpy and scipy).	
+Below are instructions to install relevant external numerical Python modules (numpy and scipy).	
 - python –m easy_install numpy OR python -m pip[3] install numpy
 - python –m easy_install scipy OR python -m pip[3] install scipy
 
