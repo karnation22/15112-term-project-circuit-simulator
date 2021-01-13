@@ -1,7 +1,7 @@
 Karn Dalmia
 Professor Kosbie
 December 10th 2015
-Term Project Brief Summary: Project consists of a circuit lab in which students connect a series of circuit elements vis-a-vis ground to ground .  
+Term Project Brief Summary: Project consists of a circuit lab where students connect series of circuit elements via ground to ground nodal.  
 
 Instructions to install relevant external numerical Python modules (numpy and scipy).	
 - python[[2/3].[*_*6/7]] –m easy_install numpy OR python[[2/3].[_*_6/7]] -m pip[3] install numpy
