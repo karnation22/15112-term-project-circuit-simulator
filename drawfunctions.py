@@ -40,19 +40,19 @@ def drawInstructionsMenu(canvas, data):
         font = "Arial 10", anchor = "nw")
     canvas.create_text(xcorner, ycorner + 11*ystep, text = """Once an element has been selected, left click to snap element on board.""", 
         font = "Arial 10", anchor = "nw")
-    canvas.create_text(xcorner, ycorner + 12*ystep, text = "Operating Instructions for Build Mode:", 
+    canvas.create_text(xcorner, ycorner + 12*ystep, text = "Operating Instructions for Build Mode.", 
         font = "Arial 16 bold", anchor = "nw")
     canvas.create_text(xcorner, ycorner + 13*ystep, text = "Use only resistors for parallel connections.",
         font = "Arial 10", anchor = "nw")
     canvas.create_text(xcorner, ycorner + 14*ystep, text = """Use RLC for series circuits but use only resistor for dcCurrent Sources.""", 
         font = "Arial 10", anchor = "nw")
-    canvas.create_text(xcorner, ycorner + 15*ystep, text = """Use ground to ground connections. Don't create a loop!""",
+    canvas.create_text(xcorner, ycorner + 15*ystep, text = """Use ground to ground connections. Do not create a loop!""",
         font = "Arial 10", anchor = "nw")
     canvas.create_text(xcorner, ycorner + 16*ystep, text = "Simulate and Transient Analysis:", font = "Arial 16 bold",
         anchor = "nw")
     canvas.create_text(xcorner, ycorner + 17*ystep, text = "Simulate button will turn green if you have a legalCircuit.",
         font = "Arial 10", anchor = "nw")
-    canvas.create_text(xcorner, ycorner + 18*ystep, text = """Same rule applies for Transient Analysis button; only use transient analysis button for series circuits and dcVoltage sources.""", 
+    canvas.create_text(xcorner, ycorner + 18*ystep, text = """ Use Transient Analysis Button for series circuits and DC-Voltage sources.""", 
         font = "Arial 10", anchor = "nw")
     canvas.create_text(xcorner, ycorner + 19*ystep, text = """Only press transient analysis button after pressing the simulate button.""", 
         font = "Arial 10", anchor = "nw")
